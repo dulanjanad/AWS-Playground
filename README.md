@@ -21,6 +21,6 @@ After terraform deploys into AWS Cloud there will be below resources will be cre
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
-Below is a sample diagram after AWS resources deployed
+#### Below is a sample diagram after AWS resources deployed
 
 ![This is an image](Diagrams/AWS-Diagram.png)
