@@ -1,6 +1,9 @@
 # AWS-Playground
  AWS Resources to deploy a K8S Cluster
 
+> :warning: **Warning:** This provsions a t3.medium ec2 instance as control-plane and a NAT Gateway within the VPC. Even if you are using a AWS free-tier still costs will be included.
+     
+
 After terraform deploys into AWS Cloud there will be below resources will be created. 
 
 1. A VPC with a NAT Gateway, Two Public Subnets, Two Private Subnets and an Internet Gateway
@@ -24,3 +27,11 @@ After terraform deploys into AWS Cloud there will be below resources will be cre
 #### Below is a sample diagram after AWS resources deployed
 
 ![This is an image](Diagrams/AWS-Diagram.png)
+
+#### Terraform commands to run.
+
+     terraform init
+     terraform fmt
+     terraform validate
+     terraform terraform plan
+     terraform apply -auto-approve
